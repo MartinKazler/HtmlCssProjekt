@@ -1,0 +1,107 @@
+@media screen and (max-width: 992px) {
+    form {
+        width: 50%;
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    form {
+        width: 100%;
+    }
+}
+
+.container-fluid a {
+    color: lightgray;
+}
+
+.container-fluid a:hover {
+    color: white;
+}
+
+footer {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.contactform {
+    display: grid;
+    grid-template-areas: 'contactus' '1' '2' '3' '4';
+}
+
+#image1 {
+    width: 300px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+#contactus {
+    grid-area: contactus;
+    margin: auto;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-bottom-color: lightgray;
+    border-top-color: lightgray;
+    margin: 10px;
+    text-align: center;
+}
+
+label {
+    padding-right: 10px;
+}
+
+form {
+    border-left-style: solid;
+    border-right-style: solid;
+    border-color: lightgray;
+    max-width: 600px;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+.c {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 600px;
+    margin: auto;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+#f1 {
+    grid-area: 1;
+}
+
+#f2 {
+    grid-area: 2;
+}
+
+#f3 {
+    grid-area: 3;
+}
+
+#f4 {
+    grid-area: 4;
+    justify-content: center;
+}
+
+#subject {
+    width: 345px;
+    font-size: 25px;
+}
+
+#submit {
+    width: 150px;
+    height: 50px;
+    font-size: 30px;
+}
+
+#message {
+    font-size: 50px;
+    margin-top: 100px;
+    text-align: center;
+}
